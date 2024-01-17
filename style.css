@@ -9,3 +9,14 @@
 	display: flex;
 	justify-content: center;
 }
+
+.decrement, .increment{
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: indianred;
+	color: white;
+
+}
