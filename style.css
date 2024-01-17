@@ -4,3 +4,8 @@
 	padding: 0;
 }
 
+.counter{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
