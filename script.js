@@ -13,6 +13,8 @@ incrementBtn.addEventListener('click', () => {
  
 // To decrement the value of counter
 decrementBtn.addEventListener('click', () => {
-    counter--;
-    counterValue.innerHTML = counter;
+    if (counter > 0){
+        counter--;
+        counterValue.innerHTML = counter;
+    }
 });
