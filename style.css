@@ -10,6 +10,16 @@
 	justify-content: center;
 }
 
+.counter-value{
+	height: 50px;
+    min-width: 70px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .decrement, .increment{
 	height: 50px;
 	width: 50px;
@@ -18,12 +28,4 @@
 	border-radius: 10px;
 	background-color: indianred;
 	color: white;
-}
-
-.counter-value{
-	height: 50px;
-	width: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+} 
