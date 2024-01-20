@@ -29,3 +29,7 @@
 	background-color: indianred;
 	color: white;
 } 
+
+.decrement:hover, .increment:hover{
+	background-color: lightpink;
+}
